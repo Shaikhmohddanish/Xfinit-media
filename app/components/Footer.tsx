@@ -62,12 +62,6 @@ export default function Footer() {
         <div className="border-t border-blue-300 mt-8 pt-8 text-center">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <p>Copyright © 2024 - All right reserved by Xfint-media</p>
-            <Link
-              href="tel:18885000024"
-              className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 font-medium"
-            >
-              1-888 500-0024
-            </Link>
           </div>
         </div>
       </div>

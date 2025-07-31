@@ -61,6 +61,13 @@ export default function Header() {
                 </button>
                 {isServicesOpen && (
                   <div className="absolute top-full left-0 mt-2 w-64 bg-blue-600 rounded-md shadow-lg py-2 z-50">
+                    <Link
+                      href="/services"
+                      className="block px-4 py-3 text-white hover:bg-blue-700 border-b border-blue-500"
+                      onClick={handleServiceLinkClick}
+                    >
+                      All Services
+                    </Link>
                     {services.map((service, index) => (
                       <Link
                         key={index}
@@ -122,6 +129,13 @@ export default function Header() {
                   </button>
                   {isServicesOpen && (
                     <div className="mt-2 ml-4 space-y-2">
+                      <Link
+                        href="/services"
+                        className="block text-white hover:text-gray-200 py-1"
+                        onClick={handleServiceLinkClick}
+                      >
+                        All Services
+                      </Link>
                       {services.map((service, index) => (
                         <Link
                           key={index}

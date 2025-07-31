@@ -4,29 +4,29 @@ export default function OurProcess() {
       name: "Discover & Strategize",
       description:
         "We start by listening. Our initial phase is dedicated to understanding your business, audience, and objectives. We conduct in-depth research and workshops to build a strategic foundation for the project.",
-      image: "/placeholder.svg?height=400&width=600",
-      alt: "Business team brainstorming with sticky notes on a glass wall",
+      image: "/images/process-1.jpg",
+      alt: "Business team collaborating on project planning",
     },
     {
       name: "Design & Prototype",
       description:
         "Creativity meets functionality. Our design team crafts intuitive user interfaces (UI) and seamless user experiences (UX). We create wireframes and interactive prototypes to visualize the solution before development begins.",
-      image: "/placeholder.svg?height=400&width=600",
-      alt: "UI/UX designer working on wireframes on a large monitor",
+      image: "/images/process-2.jpg",
+      alt: "Design professionals planning a project strategy",
     },
     {
       name: "Develop & Engineer",
       description:
         "This is where your vision becomes a reality. Our expert developers write clean, efficient, and scalable code, following industry best practices to build a robust and high-performing digital product.",
-      image: "/placeholder.svg?height=400&width=600",
-      alt: "Close-up of code on a computer screen",
+      image: "/images/process-3.jpg",
+      alt: "Team collaborating on a development project",
     },
     {
       name: "Test & Deploy",
       description:
         "Quality is paramount. We conduct rigorous testing across devices and scenarios to ensure a flawless launch. Our deployment process is meticulous, ensuring a smooth transition from development to a live environment.",
-      image: "/placeholder.svg?height=400&width=600",
-      alt: "Stylized graphic of a rocket launching, symbolizing project deployment",
+      image: "/images/process-4.jpg",
+      alt: "Software development team working together on project completion",
     },
   ]
 
@@ -49,7 +49,7 @@ export default function OurProcess() {
               <div
                 className={`relative rounded-lg overflow-hidden shadow-lg ${index % 2 !== 0 ? "lg:col-start-2" : ""}`}
               >
-                <img src={step.image || "/placeholder.svg"} alt={step.alt} className="w-full h-full object-cover" />
+                <img src={step.image || "/images/process-1.jpg"} alt={step.alt} className="w-full h-full object-cover" />
               </div>
               <div className="lg:pr-8">
                 <span className="text-sm font-bold text-blue-500 uppercase">Step {index + 1}</span>

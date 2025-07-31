@@ -40,9 +40,9 @@ export default function PayPage() {
                 credit/debit card.
               </p>
               <img
-                src="/placeholder.svg?height=40&width=250"
+                src="/images/payment-logo.jpg"
                 alt="Secure payment provider logos including PayPal, Visa, and Mastercard"
-                className="mt-4"
+                className="mt-4 h-10 object-contain"
               />
             </CardFooter>
           </Card>

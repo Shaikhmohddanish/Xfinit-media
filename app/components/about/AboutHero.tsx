@@ -4,7 +4,7 @@ export default function AboutHero() {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/placeholder.svg?height=600&width=1200')" }}
+        style={{ backgroundImage: "url('/images/about-hero.jpg')" }}
       ></div>
       {/* Background overlay */}
       <div className="absolute inset-0 bg-blue-500/90"></div>

@@ -3,7 +3,7 @@ export default function ServiceHero() {
     <section className="bg-gray-700 text-white py-20 md:py-28 relative">
       <div
         className="absolute inset-0 bg-cover bg-center opacity-20"
-        style={{ backgroundImage: "url('/placeholder.svg?height=600&width=1200')" }}
+        style={{ backgroundImage: "url('/images/software-consultancy.jpg')" }}
       ></div>
       <div className="container mx-auto px-4 relative z-10 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Software Consultancy Services</h1>

@@ -5,8 +5,8 @@ export default function OurCommitment() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative h-96 lg:h-auto rounded-lg overflow-hidden shadow-lg">
             <img
-              src="/placeholder.svg?height=600&width=600"
-              alt="Two business professionals shaking hands in a modern office"
+              src="/images/commitment.jpg"
+              alt="Team of professionals collaborating in a modern office"
               className="w-full h-full object-cover"
             />
           </div>

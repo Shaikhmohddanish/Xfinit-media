@@ -46,8 +46,8 @@ export default function WhyChooseUs() {
           {/* Left side - Image */}
           <div className="relative h-96 lg:h-auto rounded-lg overflow-hidden shadow-lg">
             <img
-              src="/placeholder.svg?height=600&width=600"
-              alt="A diverse team of professionals collaborating in a modern office"
+              src="/images/why-choose-us.jpg"
+              alt="A team collaborating on digital solutions in a modern office"
               className="w-full h-full object-cover"
             />
           </div>

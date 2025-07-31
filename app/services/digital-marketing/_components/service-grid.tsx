@@ -33,7 +33,7 @@ export default function ServiceGrid() {
     <section className="py-16 bg-gray-50 relative">
       <div
         className="absolute inset-0 bg-cover bg-center opacity-10"
-        style={{ backgroundImage: "url('/placeholder.svg?height=800&width=1200')" }}
+        style={{ backgroundImage: "url('/images/marketing-detail.jpg')" }}
       ></div>
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-blue-500 mb-12">Our Services</h2>
