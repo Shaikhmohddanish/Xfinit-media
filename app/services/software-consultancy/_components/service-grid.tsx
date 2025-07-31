@@ -52,10 +52,10 @@ export default function ServiceGrid() {
         </div>
         <div className="text-center mt-12">
           <Link
-            href="tel:18885000024"
+            href="tel:8884040304"
             className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 font-medium inline-block"
           >
-            1-888 500-0024
+            888 404 0304
           </Link>
         </div>
       </div>

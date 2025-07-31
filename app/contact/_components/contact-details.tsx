@@ -24,7 +24,7 @@ export default function ContactDetails() {
           </div>
           <div>
             <h3 className="text-lg font-semibold text-gray-800">Phone Number</h3>
-            <p className="text-gray-600">1-888 500-0024</p>
+            <p className="text-gray-600">888 404 0304</p>
           </div>
         </div>
         <div className="flex items-start">

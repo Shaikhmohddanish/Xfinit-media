@@ -37,7 +37,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Get In Touch</h3>
             <div className="space-y-2">
               <p>Email: support@Xfint-media.com</p>
-              <p>Toll free number : 1-888 500-0024</p>
+              <p>Toll free number : 888 404 0304</p>
             </div>
 
             {/* Social Media */}

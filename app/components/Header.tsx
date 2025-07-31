@@ -25,16 +25,6 @@ export default function Header() {
 
   return (
     <>
-      {/* Top Phone Bar - Desktop */}
-      <div className="hidden md:block bg-blue-700 text-white py-2">
-        <div className="container mx-auto px-4 flex justify-center items-center">
-          <a href="tel:1-888-500-0024" className="flex items-center gap-2 hover:text-blue-200 transition-colors">
-            <Phone className="w-4 h-4" />
-            <span className="text-sm font-medium">1-888 500-0024</span>
-          </a>
-        </div>
-      </div>
-
       <header className="bg-blue-500 shadow-lg sticky top-0 z-50">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
